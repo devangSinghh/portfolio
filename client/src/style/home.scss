@@ -1,0 +1,160 @@
+
+.body #page2{
+    scroll-behavior: smooth !important;
+}
+
+.intro {
+    opacity: 0.7;
+
+}
+.list {
+    list-style-type: none ;
+    overflow: hidden;
+}
+.list-item {
+    font-size: 23px;
+    font-family: 'PT Sans';
+}
+.list-item:hover {
+    cursor: pointer;
+    background: #333;
+    border-radius: 6px;;
+    
+}
+
+.letstalk {
+    color: #b10dff;
+}
+.letstalk:hover {
+    border-bottom: 4px solid #b10dff;
+    cursor: pointer;
+}
+#root {
+    margin:0;
+    padding: 0;
+}
+.wall {
+    background-color:#111;
+}
+
+
+.arrow {
+    &:hover {
+        cursor: pointer;
+    }
+    
+}
+
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #B6B6B6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px
+}
+
+
+.tt {
+    font-family: 'Roboto Slab';
+    opacity: 0.4;
+}
+
+.line {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s 1 normal both;
+}
+h1 .line {
+    border-right: 4px;
+}
+
+::-moz-selection {
+background-color: #52af77;
+color: #000;
+}
+/*#BA9EB*/
+::selection {
+background-color: #b10dff;
+color: #fff;
+}
+
+
+@media screen and (max-width:500px) {
+    .mainpage-heading {
+        font-size: 30px !important;
+    }
+    .intro {
+        font-size: 15px !important;
+    }
+    .row {
+        flex-direction: row !important;
+    }
+    .to-project {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .mainpage-heading {
+        font-size: 44px !important;
+    }
+    .intro {
+        font-size: 20px !important;
+    }
+    .to-project {
+        font-size: 20px !important;
+    }
+    .row {
+        flex-direction: row !important;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .mainpage-heading {
+        font-size: 43px !important;
+    }
+    .to-project {
+        font-size: 22px !important;
+    }
+    .intro {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .mainpage-heading {
+        font-size: 49px !important;
+    }
+    .to-project {
+        font-size: 25px !important;
+    }
+    .intro {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width:991.98px) {
+    .mainpage-heading {
+        font-size: 55px ;
+    }
+    .to-project {
+        font-size: 25px !important;
+    }
+    .intro {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width:1227px) {
+    .mainpage-heading {
+        font-size: 90px ;
+    }
+    .to-project {
+        font-size: 25px !important;
+    }
+    .intro {
+        font-size: 20px !important;
+    }
+}

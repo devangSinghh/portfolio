@@ -1,0 +1,22 @@
+.footer-name {
+    font-family: 'Playfair Display';
+    color: rgba(255, 255, 255, 0.4);
+    padding: 0.2rem;
+    background: rgba(98, 96, 172, 0.3);
+}
+
+.footer-heading-1 {
+    letter-spacing: 22px;
+    opacity: 0.6;
+}
+.footer-heading-1:hover {
+    letter-spacing: 22px;
+    opacity: 0.9;
+    transition: 1s;
+}
+.footer-img{
+    opacity:0.6;
+}
+.footer-img:hover{
+    opacity:1;
+}

@@ -1,0 +1,14 @@
+.form-button {
+    background-color: #0CA7EA;
+    color:#fff;
+    border-radius: 4px;
+    width: 8.6rem;
+    height: 2.2rem;
+    transition-delay: 0.1s !important;
+    -webkit-transition-property: background, transform;
+    -webkit-transition-duration: 0.5s, 0.2s;
+    
+    &:hover {
+        transform: translateY(-5px);
+    }
+}

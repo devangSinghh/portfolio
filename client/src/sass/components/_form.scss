@@ -1,0 +1,115 @@
+.form-container {
+    padding: 0.8rem;
+}
+.form-wrapper {
+    background-color: #1D1D1D;
+    border-radius: 13px;
+    padding: 2.8rem;
+}
+.main-form-heading {
+    font-family: 'Space Mono';
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 800;
+}
+form {
+    caret-color:#A5A5A5;
+}
+label {
+    color: #a5a5a5;
+    font-family: $font-form;
+    font-weight: 600;
+    font-size: 17px;
+}
+input {
+    background-color: #1D1D1D;
+    color: #A5A5A5;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    &:focus {
+        border-bottom: 2px solid #0CA7EA;
+        transition: all 0.2s ease-in-out;
+    }
+}
+textarea {
+    background-color: #1d1d1d;
+    color: #A5A5A5;
+    border: none;
+    outline: none;
+    resize: none !important;
+    border-left: 3px solid #4A4A4A;
+    &:focus {
+        border-left: 3px solid #0CA7EA;
+        transition: all 0.2s ease-in-out;
+    }
+    
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #5C5C5C;
+    font-family: $font-form;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #5C5C5C;
+    font-family: $font-form;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  ::placeholder {
+    color: #5C5C5C;
+    font-family: $font-form;
+    font-weight: 700;
+    text-align: center;
+  }
+.sub-form-heading {
+    font-family:$font-timeline;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 800;
+}
+.details {
+    font-family: $font-form;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    span{
+        color: #0CA7EA;
+        &:hover {
+            cursor: pointer;
+            border-bottom: 3px solid #0CA7EA;
+        }
+    }
+}
+.amount-dropdown {
+    background-color:#3c3c3c;
+    padding: 0.3rem; 
+    border-radius: 4px;
+    &:hover {
+        cursor: pointer;
+    }
+    span {
+        color: #a5a5a5;
+    }
+}
+.amount-list {
+    padding: 0;
+    margin: 0;
+    background-color: #2C2C2C;
+    li {
+        padding: 0.5rem;
+        color: #A5A5A5;
+        &:hover {
+            cursor: pointer;
+            background-color: #454545;
+        }
+    }
+}
+.fa-circle {
+    width: 17px;
+    height: 7px;
+    // border-radius: 50%;
+    color: #2FA81B;
+}

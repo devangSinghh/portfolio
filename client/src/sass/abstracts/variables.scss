@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Source+Sans+Pro&family=Spartan:wght@400;600;800&display=swap');
+$font-timeline:Spartan;
+$font-quote:Courgette;
+$font-form:Source Sans Pro;
+@font-face {
+    font-family: Op;
+    src: url('/op.otf');
+}
+
+.is-operatorMono {
+    font-family: Op, "Noto Sans" !important;
+}
+.is-playfair {
+    font-family: 'Playfair Display';
+}
+.is-white {
+    color: #fff;
+}
+.is-ptSans {
+    font-family: 'PT Sans';
+}
+.is-monospace {
+    font-family: "Space Mono" !important;
+}
+.is-bold {
+    font-weight:800;
+}
+.is-large {
+    font-size: 120px;
+}
+.is-flower{
+    font-family:"Indie Flower";
+}
+.is-light-black {
+    background-color: #222;
+}

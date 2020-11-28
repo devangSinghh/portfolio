@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+@font-face {
+    font-family: Op;
+    src: url('/op.otf');
+}
+
+.is-op {
+    font-family: Op ;
+}
+
+.is-fira {
+  font-family: 'Fira Code';
+}
+
+.navbar {
+    background-color: #111 !important;
+}
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #B6B6B6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px
+}
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+  }
+  
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  
+
+  .landingPage-navLinks {
+      color: #888;
+      text-decoration: none !important;
+  }
+  .landingPage-navLinks:hover {
+      color: #fff;
+  }
+
