@@ -61,6 +61,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "proxy": "http://52.66.195.148/" 
+  "proxy": "http://localhost:1111/" 
 }
 
