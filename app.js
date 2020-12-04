@@ -63,7 +63,7 @@ try{
 
 app.get("/myprojects", (req, res) => {
   try{
-    Data.find({}).then(data => res.send(data));
+    Data.find({}).then(data => console.log(data));
 
   }
   catch(err){
