@@ -26,9 +26,9 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.get('/', (req, res) => {
-  Data.find({}).then(data => res.json(data));
-})
+// app.get('/', (req, res) => {
+//   Data.find({}).then(data => res.json(data));
+// })
 app.get("/myp", (req, res) => {
     Data.find({}).then(data => res.json(data));
 })
@@ -51,7 +51,7 @@ try{
 }
 })
 
-app.use(express.static(__dirname, 'client/build'));
+app.use(express.static('client/build'));
 // app.use(express.static(path.join(__dirname, "client/build")));
 // app.use(express.static("public"));
 
