@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { motion } from 'framer-motion';
-import axios from '../axios';
+import axios from 'axios';
 import { Button } from '@material-ui/core';
 export default class Projects extends Component {
 
