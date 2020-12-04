@@ -9,7 +9,7 @@ export default class CardContainer extends Component {
     }
     
     componentDidMount = async() => {
-        const {data:projects} = await axios.get('https://52.66.195.148/myp')
+        const {data:projects} = await axios.get("/myp")
         // console.log(projects)
         this.setState({projects});
         ScrollReveal().reveal('.project__container',{ scale: 0.85,reset:true, viewFactor: 0.3, easing:'cubic-bezier(.51,0,.42,1)' }  );
