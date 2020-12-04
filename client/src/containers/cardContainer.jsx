@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import Card_ from '../components/Card';
-import axios from '../axios';
+import axios from 'axios';
 import ScrollReveal from 'scrollreveal';
 export default class CardContainer extends Component {
     
     state = {
-        ptojects : []
+        projects : []
     }
     
     componentDidMount = async() => {
-        const {data:projects} = await axios.get('/myp');
-        console.log(projects)
+        const {data:projects} = await axios.get('http://52.66.195.148/myp')
+        // console.log(projects)
         this.setState({projects});
         ScrollReveal().reveal('.project__container',{ scale: 0.85,reset:true, viewFactor: 0.3, easing:'cubic-bezier(.51,0,.42,1)' }  );
         
