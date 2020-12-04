@@ -101,7 +101,7 @@ export default class Home extends Component {
               <div><CardContainer/></div>
               <div ref={this.form}><Form /></div>
             </div>
-            {/* <Footer/> */}
+            <Footer/>
           </React.Fragment>
         );
 
