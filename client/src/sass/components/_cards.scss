@@ -1,0 +1,84 @@
+.project__container {
+    height:70vh;
+}
+
+.card {
+    border:none !important; 
+    border-radius:10px !important;
+    img {
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;
+    }
+    .card-body {
+        background-color:#222;
+    }
+    
+}
+.section__1 {
+    position: relative;
+    .card_title__ {
+        position:absolute;
+        bottom:0;
+        left:1rem;
+        font-size:25px;
+        color:#fff;
+        font-weight:500;
+        font-family:$font-form;
+    }
+}
+
+.MuiCard-root {
+    outline: none;
+    button {
+        outline:none !important;
+        font-family: $font-1;
+        color:#fff;
+        font-weight:800;
+    }
+    .MuiButton-label {
+        color:#fff;
+        font-weight:800;
+        &:hover {
+            .fa-external-link {
+                    padding-left:0.9rem !important;
+            }
+        }
+    }
+    
+    background-color: unset !important;
+    color:#fff ;
+}
+
+.fa-external-link {
+    animation-name:externalLink;
+    animation-duration:0.5s;
+    animation-direction: alternate;
+    transition: all 0.3s ease-in-out; 
+}
+
+.MuiCardActionArea-root, .MuiCardActions-spacing {
+    background-color:rgba(#0ca7ea, 0.1) !important;
+}
+.MuiTouchRipple-root {
+    display: none;
+    pointer-events: none;
+}
+
+@keyframes externalLink {
+    from {
+        padding-left:0rem !important;
+    }
+    to {
+        padding-left:0.9rem !important;
+    }
+}
+
+a {
+    list-style-type: none;
+    color:#f1f1f1 !important;
+}
+
+.project__heading {
+    color:rgba(#f2f2f2, 0.8);
+    font-family: $font-1;
+}

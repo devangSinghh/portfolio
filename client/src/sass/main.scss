@@ -8,6 +8,13 @@
 @import "./components/quote";
 @import "./components/form";
 @import "./components/button";
+@import "./components/carousel";
+@import "./components/cards";
+@import "./components/pagenotfound";
 body {
     background-color: #111 !important;
+    
+}
+html {
+    scroll-behavior: smooth !important;
 }

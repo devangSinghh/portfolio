@@ -13,6 +13,8 @@ import Image from './frontPageimg';
 import ScrollReveal from 'scrollreveal';
 import Quote from './quote';
 import Form from '../components/form';
+import CardContainer from '../containers/cardContainer';
+import Card_ from './Card';
 export default class Home extends Component {
 
     state = {
@@ -21,8 +23,8 @@ export default class Home extends Component {
        ArrowOff:true,
        showButton:false
     }
-    page = React.createRef();
-    
+    form = React.createRef();
+    projects = React.createRef();
 
     showList = () => {
       return (
@@ -64,7 +66,8 @@ export default class Home extends Component {
         this.setState({showButton:true})
       },3900);
     }
-    
+    executeFormScroll = () => this.form.current.scrollIntoView()
+    executeProjectScroll = () => this.projects.current.scrollIntoView()
     render() {
         return (
         <React.Fragment>
@@ -77,7 +80,7 @@ export default class Home extends Component {
                   <div className="row d-flex flex-column wall">
                   <Typist><div className="row"><h1 className="mainpage-heading is-white is-monospace is-bold is-large ml-1 pl-2 ">Hi!<br />I<span style={{fontFamily:"Space Mono"}}>&#x2019;</span>m Devang</h1></div>
                     <div className="row"><h3 className="is-white is-monospace is-bold intro pl-2 ml-1">Fullstack developer based in India</h3></div></Typist>
-                    <div className="row">{this.state.showButton && <motion.h3 initial={{y:10}} animate={{y:0}} className="is-monospace is-bold ml-1 to-project pl-2 is-white">Have a project, <span className="letstalk">let&#x2019;s talk</span></motion.h3>}</div>
+                    <div className="row">{this.state.showButton && <motion.h3 initial={{y:10}} animate={{y:0}} className="is-monospace is-bold ml-1 to-project pl-2 is-white">Have a project, <span className="letstalk" onClick={this.executeFormScroll}>let&#x2019;s talk</span></motion.h3>}</div>
                   </div>
                 </div>
                 <div className="col-md-5 p-3" >
@@ -85,7 +88,7 @@ export default class Home extends Component {
                 </div>
                     
                 </div>
-                <div className="footer">
+                <div className="footer d-flex justify-content-center">
                     {this.state.ArrowOff && this.state.showArrow && <span><img src={arrow} className="img img-fluid mb-5 arrow" alt=""/></span>}
                 </div>
                 </div>
@@ -94,8 +97,9 @@ export default class Home extends Component {
             </div>
             <div className="container-fluid">
               <Timelinee />
-              <Quote />
-              <Form />
+              {/* <Quote /> */}
+              <div><CardContainer/></div>
+              <div ref={this.form}><Form /></div>
             </div>
             <Footer/>
           </React.Fragment>

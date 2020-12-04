@@ -1,0 +1,71 @@
+.carousel-container {
+    box-shadow : 0 1px 1px   rgba(0, 0, 0, 0.034),
+                   0 2px 5.2px   rgba(0, 0, 0, 0.048),
+                   0 7px 7px   rgba(0, 0, 0, 0.06),
+                   0 14px 13px rgba(0, 0, 0, 0.072),
+                   0 30px 25px rgba(0, 0, 0, 0.086),
+                   0 60px 40px    rgba(0, 0, 0, 0.1);
+                   position: relative;
+}
+ .fa-angle-left {
+    //  border: 2px solid #000;
+    position: absolute;
+    cursor: pointer;
+    top:30%;
+    background-color: #fff;
+    left: -2.5%;
+     padding: 0.4rem;
+     padding-left: 1.25rem;
+     padding-right: 1.25rem;
+     border-radius: 50%;
+     box-shadow: 0 1px 1px   rgba(0, 0, 0, 0.034),
+     0 2px 5.2px   rgba(0, 0, 0, 0.048),
+     0 7px 7px   rgba(0, 0, 0, 0.06),
+     0 14px 13px rgba(0, 0, 0, 0.072),
+     0 30px 25px rgba(0, 0, 0, 0.086),
+     0 60px 50px    rgba(0, 0, 0, 0.1);
+ }
+
+ .fa-angle-right {
+    //  border: 2px solid #000;
+    background-color: #fff;
+     position: absolute;
+     cursor: pointer;
+     top:30%;
+     right: -2.5%;
+     padding: 0.4rem;
+     padding-left: 1.25rem;
+     padding-right: 1.25rem;
+     border-radius: 50%;
+     box-shadow: 0 1px 1px   rgba(0, 0, 0, 0.034),
+     0 2px 5.2px   rgba(0, 0, 0, 0.048),
+     0 7px 7px   rgba(0, 0, 0, 0.06),
+     0 14px 13px rgba(0, 0, 0, 0.072),
+     0 30px 25px rgba(0, 0, 0, 0.086),
+     0 60px 50px    rgba(0, 0, 0, 0.1);
+ }
+
+
+  .messageout-enter {
+    position: absolute;
+    opacity: 0.01;
+  }
+  
+  /* ending ENTER animation */
+  .messageout-enter-active {
+    opacity: 1;
+    transition: all 500ms ease-in-out;
+  }
+  
+  /* starting EXIT animation */
+  .messageout-exit {
+      
+    opacity: 1;
+  }
+  
+  /* ending EXIT animation */
+  .messageout-exit-active {
+      
+    opacity: 0;
+    transition: all 500ms ease-in-out;
+  }

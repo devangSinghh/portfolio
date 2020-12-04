@@ -9,6 +9,11 @@ export default class TimeLinee extends Component {
     state = {
         timelineData : []
     }
+    componentDidMount = async() => {
+        console.log(this.state.timelineData);
+        ScrollReveal().reveal('.timeline-container',{ scale: 0.85,reset:true, viewFactor: 0.4 }  );
+    }
+
      AlignTimeline = ({align}) => {
         return (
             <div className="container timeline-container">
@@ -34,15 +39,6 @@ export default class TimeLinee extends Component {
         );
         
      };
-    componentDidMount = async() => {
-        const { data:timelineData } = await axios.get("http://localhost:1111/api/dataItem");
-        this.setState({
-            timelineData
-        });
-        console.log(this.state.timelineData);
-        ScrollReveal().reveal('.timeline-item',{ delay: 800, duration:1000, origin:"bottom", opacity:0.2, reset:true });
-    }
-
 
     render() {
         return (

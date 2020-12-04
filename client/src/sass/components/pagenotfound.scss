@@ -1,0 +1,347 @@
+
+  .container-fluid_404 {
+    // background: #e4552f;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+//   .sun {
+//     clip-path: circle(50% at 50% 50%);
+//     background: #fffefe;
+//     width: 60px;
+//     height: 60px;
+//     position: absolute;
+//     left: 67%;
+//     top: 21%;
+//   }
+//   .bg-2 {
+//     background: #fc9336;
+//     position: absolute;
+//     width: 400px;
+//     height: 80px;
+//     top: 20%;
+//   } 
+  .disc-2 {
+    clip-path: circle(50% at 50% 50%);
+    background: #fc9336;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 57%;
+    top: 8%;
+  }
+  .bg-3 {
+    background: #ffc467;
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    top: 34%;
+  }
+  .disc-1 {
+    clip-path: circle(50% at 50% 50%);
+    background: #ffc467;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 62%;
+    top: 16%;
+  }
+  .mountain-3 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #e4552f;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 28%;
+    left: -10%;
+  }
+  .mountain-4 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #e4552f;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  }
+  .mountain-5 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #e4552f;
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    top: 37%;
+    left: 80%;
+  }
+  .mountain-6 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #e4552f;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 43%;
+    left: 70%;
+  }
+  .mountain-1 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #fc9336;
+    width: 280px;
+    height: 170px;
+    position: absolute;
+    top: 20%;
+    left: -15%;
+  }
+  .slide {
+    background: #af232d;
+    width: 110px;
+    height: 120px;
+    position: absolute;
+    left: 13%;
+    top: 10%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  .top-1 {
+    background: #fffefe;
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+    top: 0;
+    left: 41%;
+  }
+  .mountain-2 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #fc9336;
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+  }
+  .slide-2 {
+    background: #af232d;
+    width: 110px;
+    height: 120px;
+    position: absolute;
+    left: 5%;
+    top: 6%;
+    transform: rotate(20deg);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .top-2 {
+    background: #fffefe;
+    width: 50px;
+    height: 50px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+  .bg-6 {
+    position: absolute;
+    background: #af232d;
+    bottom: 20%;
+    height: 50px;
+    width: 400px;
+  }
+  .land {
+    background: #af232d;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: -170%;
+    left: -40%;
+  }
+  .svg-6 {
+    position: absolute;
+    top: -170%;
+    transform: translateX(20%) rotate(350deg) scale(1.3);
+  }
+  .tree-7 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #af232d;
+    width: 40px;
+    height: 60px;
+    top: -160%;
+    left: 35%;
+  }
+  .tree-8 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #af232d;
+    width: 40px;
+    height: 60px;
+    top: -200%;
+    left: 50%;
+  }
+  .tree-9 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #af232d;
+    width: 40px;
+    height: 60px;
+    top: -210%;
+    left: 65%;
+  }
+  .tree-10 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #af232d;
+    width: 40px;
+    height: 60px;
+    top: -210%;
+    left: 85%;
+  }
+  .tree-11 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #af232d;
+    width: 40px;
+    height: 60px;
+    top: -190%;
+    left: 90%;
+  }
+  .bg-7 {
+    position: absolute;
+    background: #3f0322;
+    bottom: 0;
+    height: 100px;
+    width: 400px;
+  }
+  .svg7 {
+    position: absolute;
+    top: -60%;
+    transform: scale(1.3);
+  } 
+  .tree-1 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #3f0322;
+    width: 40px;
+    height: 60px;
+    bottom: 32%;
+    left: 5%;
+  }
+  .tree-2 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #3f0322;
+    width: 40px;
+    height: 60px;
+    bottom: 27%;
+    left: 25%;
+  }
+  .tree-3 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #3f0322;
+    width: 40px;
+    height: 70px;
+    bottom: 27%;
+    left: 32%;
+  }
+  .tree-4 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #3f0322;
+    width: 40px;
+    height: 70px;
+    bottom: 30%;
+    left: 72%;
+  }
+  .tree-5 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #3f0322;
+    width: 40px;
+    height: 60px;
+    bottom: 29%;
+    left: 77%;
+  }
+  .tree-6 {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #3f0322;
+    width: 40px;
+    height: 70px;
+    bottom: 27%;
+    left: 90%;
+  }
+  .balloon_container {
+    position: relative;
+    z-index: 21;
+    animation: balloonmove 20s linear infinite;
+  }
+  .balloon {
+    position: absolute;
+    clip-path: circle(50% at 50% 50%);
+    background: #af232d;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: 16%;
+  }
+  .h1 {
+    position: absolute;
+    left: -15%;
+    top: 35.7%;
+    width: 120px;
+    height: 35px;
+    background: #e4552f;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    transform: rotate(-90deg);
+  }
+  .h2 {
+    position: absolute;
+    left: 25%;
+    top: 25.2%;
+    width: 120px;
+    height: 60px;
+    background: #ffc467;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    transform: rotate(90deg);
+  }
+  .h3 {
+    position: absolute;
+    left: 15%;
+    top: 35.7%;
+    width: 120px;
+    height: 35px;
+    background: #fc9336;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    transform: rotate(90deg);
+  }
+  .box {
+    position: absolute;
+    background: #3f0322;
+    width: 20px;
+    height: 20px;
+    transform: translate(247%,605%);
+  }
+  
+  @keyframes animateCloud {
+      0% {
+          margin-left: -600px;
+      }
+      100% {
+          margin-left: 100%;
+      }
+  }
+   @keyframes balloonmove {
+    0%,100% {
+      transform: translateX(0%);
+      }
+    90% {
+      transform: translateX(90%);
+      }
+  } 
+
+  .pdne {
+      
+      color:rgba(#f1f1f1, 0.6)
+  }

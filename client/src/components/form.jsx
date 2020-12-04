@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import ScrollReveal from 'scrollreveal';
 export default class Form extends Component {
     amounts = [
         {
@@ -26,12 +27,16 @@ export default class Form extends Component {
         data : {
             name:"",
             organization:"",
-            description:"fhfgfhf",
+            description:"",
             amount:"",
             email:"",
             source:""
         }
     }
+    componentDidMount = async() => {
+        ScrollReveal().reveal('.form-container',{ scale: 0.85,reset:true, viewFactor: 0.3 }  );
+    }
+    
     handleClick = (event) => {
         this.setState({anchorEl:event.currentTarget});
       };
@@ -114,9 +119,6 @@ export default class Form extends Component {
                             <input id="email" name="email" value={this.state.data.email} onChange={this.handleChange} placeholder="Email Address" className="mb-5" type="text"/>
                         </div>
                         <button disabled={this.state.disabled} className="form-button">Let's talk</button>
-                        <div className="col-md-12 p-0">
-                            <h6 className="mt-5 details">For more details check out <span>projects</span></h6>
-                        </div>
                     </form>
                 </div>
             </div>
