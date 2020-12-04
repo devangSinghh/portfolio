@@ -13,7 +13,7 @@ export default class Nav extends Component {
                 </button>
                     <div className="collapse navbar-collapse align-items-end mr-4 justify-content-end is-white flex-column is-fira" id="nav">
                     <div className="navbar-nav">
-                            <a href="https://support.eji.org/give/153413/#!/donation/checkout" className="is-fira landingPage-navLinks">contact</a>
+                            <a href="" className="is-fira landingPage-navLinks">contact</a>
                         </div>
                         <div className="navbar-nav">
                             <a href="https://github.com/Luffy-webdev/Page" className="is-fira landingPage-navLinks">github</a>

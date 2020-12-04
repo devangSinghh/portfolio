@@ -66,6 +66,12 @@ app.post('/form', async(req, res) => {
       res.status(400).send(err);
     }
 })
+
+app.get('/projects/:projectLink', (req, res) => {
+    Data.find({projectLink:req.params.projectLink}).then(data => res.json(data))
+    // res.json(project);
+  })
+
 app.use(express.static('client/build'));
 app.get('*', (req,res) =>{
   res.sendFile(path.join(__dirname+'/client/build/index.html'));
