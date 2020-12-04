@@ -7,6 +7,7 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const bp = require('body-parser');
 const Data = require('./model/projects');
+const form = require('./model/form');
 //reading .env vars
 dotenv.config();
 
@@ -50,7 +51,21 @@ try{
     res.status(400).send(err);
 }
 })
-
+app.post('/form', async(req, res) => {
+    const formData = new form({
+      name:req.body.name,
+      organization:req.body.organization,
+      description:req.body.description,
+      email:req.body.email,
+      source:req.body.source 
+    })
+    try {
+      const formSubmit = await formData.save();
+      res.send(formSubmit);
+    }catch (err) {
+      res.status(400).send(err);
+    }
+})
 app.use(express.static('client/build'));
 app.get('*', (req,res) =>{
   res.sendFile(path.join(__dirname+'/client/build/index.html'));
