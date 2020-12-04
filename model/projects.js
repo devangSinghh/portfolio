@@ -7,7 +7,7 @@ const Schema = new mongoose.Schema({
     projectBody:String,
     projectLink:String,
     type:String,
-    githubRepo:String
+    // githubRepo:String
 })
 
 module.exports = mongoose.model('projects', Schema);
