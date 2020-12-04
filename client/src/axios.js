@@ -1,7 +1,7 @@
 import axios from 'axios';
 const instance = axios.create({
     // Base Domain Name
-    baseURL: 'http://localhost:1111/'
+    baseURL: 'http://52.66.195.148/'
 
 });
 
