@@ -67,7 +67,7 @@ export default class Form extends Component {
         // let idd = this.open ? 'simple-popover' : undefined;
         const data = this.state.data;
         if(data.name.length && data.email.length && data.organization.length && data.description.length && data.amount.length)this.setState({disabled:false});
-        console.log(data);
+        // console.log(data);
         return (
             <div className="container form-container">
                 <div className="form-wrapper">
