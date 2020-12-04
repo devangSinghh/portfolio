@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Card_ from '../components/Card';
-import axios from '../axios';
+import axios from 'axios';
 import ScrollReveal from 'scrollreveal';
 export default class CardContainer extends Component {
     
