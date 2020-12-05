@@ -10,7 +10,8 @@ export default class Projects extends Component {
 
     componentDidMount = async() => {
         const { match: { params } } = this.props;
-        const {data:project} = await axios.get(`/projects/${params.project}`)
+        console.log(params)
+        const {data:project} = await axios.get(`/projects/${params.project.slice(0, -1)}`)
         this.setState({project});
     }
     

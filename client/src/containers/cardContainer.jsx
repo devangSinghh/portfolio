@@ -29,7 +29,7 @@ export default class CardContainer extends Component {
                 <h1 className="mb-4 mt-4 project__heading">My projects</h1>
                 <div className="row">
                     {projects.map(m => 
-                        <div className="col-md-4 mb-2"><Card_ imgUrl="cartest.jpg" title={m.projectHeading} body={m.projectDescription} linkto={m.projectLink}/></div>
+                        <div className="col-md-4 mb-2"><Card_ imgUrl={m.img} title={m.projectHeading} body={m.projectDescription} linkto={m.projectLink+'_'}/></div>
                         )}
                 </div>
             </div>
