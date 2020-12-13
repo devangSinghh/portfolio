@@ -76,21 +76,21 @@ export default class Home extends Component {
                 <Nav/>
                 <div className="page-background wall">
                 <div className="row m-0">
-                <div className="col-md-7 mt-5 d-flex justify-content-center">
+                <div className="col-md-12 mt-5 d-flex justify-content-center">
                   <div className="row d-flex flex-column wall">
                   <Typist><div className="row"><h1 className="mainpage-heading is-white is-monospace is-bold is-large ml-1 pl-2 ">Hi!<br />I<span style={{fontFamily:"Space Mono"}}>&#x2019;</span>m Devang</h1></div>
                     <div className="row"><h3 className="is-white is-monospace is-bold intro pl-2 ml-1">Fullstack developer based in India</h3></div></Typist>
                     <div className="row">{this.state.showButton && <motion.h3 initial={{y:10}} animate={{y:0}} className="is-monospace is-bold ml-1 to-project pl-2 is-white">Have a project, <span className="letstalk" onClick={this.executeFormScroll}>let&#x2019;s talk</span></motion.h3>}</div>
                   </div>
                 </div>
-                <div className="col-md-5 p-3" >
+                <div className="container p-5" >
                     <div>{this.state.show && this.showRect()}</div>
                 </div>
                     
                 </div>
-                <div className="footer d-flex justify-content-center">
+                {/* <div className="footer d-flex justify-content-center">
                     {this.state.ArrowOff && this.state.showArrow && <span><img src={arrow} className="img img-fluid mb-5 arrow" alt=""/></span>}
-                </div>
+                </div> */}
                 </div>
                 
             </div>

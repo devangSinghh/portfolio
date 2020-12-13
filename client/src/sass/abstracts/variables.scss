@@ -5,10 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Source+Sans+Pro&family=Spartan:wght@400;600;800&display=swap');
+@font-face {
+    font-family: font4;
+    src: url('./font_4.otf');
+}
 $font-1:Ubuntu;
 $font-timeline:Spartan;
 $font-quote:Courgette;
 $font-form:Source Sans Pro;
+$font-4:font4;
 @font-face {
     font-family: Op;
     src: url('/op.otf');
